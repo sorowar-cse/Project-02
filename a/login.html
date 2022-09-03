@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>ONS (Author: TAN)</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .full {
+            height: 100vh;
+            background-color: #B2E2F0;
+        }
+
+        .image img {
+            height: 565px;
+            width: 100%;
+        }
+
+        .image {
+            height: 100vh;
+        }
+
+
+
+
+
+
+
+
+
+
+        .loginbox {
+            width: 300px;
+            height: 420px;
+            background: black;
+            color: white;
+            top: 50%;
+            left: 18%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            box-sizing: border-box;
+            padding: 70px 30px;
+            border-radius: 20px;
+        }
+
+        .pic {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            position: absolute;
+            top: -50px;
+            left: 100px;
+        }
+
+        h1 {
+
+            text-align: center;
+            font-size: 22px;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            margin-bottom: 20px;
+            border: none;
+            border-bottom: 1px solid white;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            color: white;
+            font-size: 16px;
+        }
+
+        #one {
+            width: 250px;
+            border: none;
+            outline: none;
+            height: 30px;
+            background: red;
+            color: white;
+            font-size: 18px;
+            border-radius: 20px;
+        }
+
+        button:hover {
+            background: blue;
+            color: white;
+        }
+
+        #two {
+            width: 250px;
+            border: none;
+            outline: none;
+            height: 30px;
+            background: white;
+            color: blueviolet;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 20px;
+        }
+
+        #psw {
+            text-align: right;
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- <img src="{{url_for('static',filename='Image/1.jpg')}}">     -->
+    <div class="full">
+
+
+        <div class="loginbox">
+            <img src="logo.jpg" class="pic">
+            <h1>Admin Login</h1>
+
+            <p>Username</p>
+            <input type="text" name="" id="username" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" name="" id="password" placeholder="Enter Password">
+            <p id="psw"><a href="#">Forgot password?</a></p>
+            <br>
+            <button onclick="login()" id="one">Submit</button>
+            <br><br>
+            <button onclick="signup()" id="two">Create Account</button>
+        </div>
+
+
+        <div class="image">
+            <img src="ok.jpg" alt="">
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

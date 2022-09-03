@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(32, 30, 30);
+}
+
+nav {
+    margin-left: 410px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 25px;
+    padding: 10px 25px;
+    background-color: black;
+    color: rgba(249, 242, 242, 0.964);
+    border-radius: 15px;
+}
+
+nav a:hover {
+    background-color: #8583E1;
+}
+
+button {
+    border: none;
+    margin-left: 250px;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #100F3A;
+}
+
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+.full img {
+    height: 600px;
+    width: 100%;
+}
+
+.full h1 {
+    margin: 75px;
+    position: absolute;
+    font-size: 95px;
+    font-weight: bolder;
+    background-color: black;
+    color: wheat;
+    border-radius: 5%;
+}
+
+.full p {
+    margin-left: 75px;
+    margin-top: 300px;
+    position: absolute;
+    font-size: 45px;
+    font-weight: bold;
+    background-color: rgb(32, 30, 30);
+    color: white;
+}
+
+.courses {
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.basic img {
+
+}
+
+.basic {
+    border: 7px dashed #aeaeb7;
+    border-radius: 25%;
+    text-align: center;
+    color:  #8583E1;
+    height: 375px;
+    width: 25%;
+}
+
+.basic:hover {
+    border: 7px dashed #8583E1;
+    border-radius: 15%;
+    text-align: center;
+    color:  #8d8d9e;
+}
+
+#butn1 {
+    border: none;
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+
+#butn1:hover {
+    background-color: #100F3A;
+}
